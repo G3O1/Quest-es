@@ -1,9 +1,9 @@
 
 from math import sqrt
 
-def inutil(a, b, c):
+def baskara(a, b, c):
     delta = (b ** 2) - (4 * a * c)
-    return (- b + sqrt(delta))/ (2 * a) and (- b - sqrt(delta))/ (2 * a)
+    return (- b + sqrt(delta))/ (2 * a) , (- b - sqrt(delta))/ (2 * a)
 
-rã = inutil(2, -4, 2)
+rã = baskara(2, -5, 2)
 print(rã)
